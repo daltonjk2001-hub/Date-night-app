@@ -1,0 +1,61 @@
+{
+  "id": "./index.html",
+  "name": "Date Night Decider",
+  "short_name": "Date Night",
+  "description": "Eliminate decision fatigue with interactive couple games, daily activity picks, compatibility matching, and a shared relationship scrapbook.",
+  "lang": "en-US",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0d0714",
+  "theme_color": "#0d0714",
+  "categories": ["lifestyle", "entertainment", "utilities"],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Swipe and Match Together"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Swipe Matcher",
+      "short_name": "Matcher",
+      "description": "Take turns swiping on date ideas together",
+      "url": "./index.html?mode=matcher",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Spin the Wheel",
+      "short_name": "Wheel",
+      "description": "Let fate pick tonight's exact activity",
+      "url": "./index.html?mode=wheel",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Today's Daily Pick",
+      "short_name": "Daily Date",
+      "description": "View today's saved couple activity",
+      "url": "./index.html?mode=daily",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
